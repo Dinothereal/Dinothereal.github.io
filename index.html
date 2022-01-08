@@ -24,11 +24,11 @@
     <form id="login" class="ui">
         <div class="smallt">SIGN IN</div>
         <div>
-            <label for="email">E-mail</label>
+            <label for="email">E-mail</label><br />
             <input type="text" id="email" name="email" class="text" required>
         </div>
         <div>
-            <label for="password">Password</label>
+            <label for="password">Password</label><br />
             <input type="password" name="password" id="password" class="text" required>
         </div>
         <div>
@@ -40,15 +40,15 @@
     <form id="register" class="ui">
         <div class="smallt">REGISTER</div>
         <div>
-            <label for="s_email">E-mail</label>
+            <label for="s_email">E-mail</label><br />
             <input type="text" name="s_email" id="s_email" class="text" required>
         </div>
         <div>
-            <label for="s_password">Password</label>
+            <label for="s_password">Password</label><br />
             <input type="password" name="" id="s_password" class="text" required>
         </div>
         <div>
-            <label for="s_username">Name</label>
+            <label for="s_username">Name</label><br />
             <input type="text" name="" id="s_username" class="text" required>
         </div>
         <div>
@@ -58,11 +58,11 @@
 
     <script type="module">
 
-        // Import the functions you need from the SDKs you need 找你要的網址: https://firebase.google.com/docs/web/learn-more#available-libraries 可以調成中文，下面有 可用的 Firebase JS SDK（來自 CDN）找版本9的import進來
+        // Import the functions you need from the SDKs you need 網址: https://firebase.google.com/docs/web/learn-more#available-libraries 可以調成中文，下面有 可用的 Firebase JS SDK（來自 CDN）找版本9的import進來
         import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"
         import { getFirestore } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js";
         import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, updateProfile } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js";
-        //import的{}裡是丟你要用到的功能，可以去它官網找 https://firebase.google.com/docs/auth/web/manage-users。
+        //官網找 https://firebase.google.com/docs/auth/web/manage-users。
 
 
 
