@@ -8,12 +8,7 @@
     width:100%;
     display:flex;
 }
-.logo {
-    width: 3.2%;
-    margin-left:36%;
-    object-fit:contain;
-    position:relative;
-}
+
 .title {
     text-align: center;
     font-family: 'Bai Jamjuree', "微軟正黑體", sans-serif;
@@ -92,7 +87,7 @@
     color: black;
     font-family: 'Bai Jamjuree', "微軟正黑體", sans-serif;
     font-weight: bold;
-    font-size:25px;
+    font-size:2vmin;
     position: absolute;
     overflow: hidden;
     top: 50%;

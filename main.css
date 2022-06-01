@@ -6,10 +6,9 @@
     text-align: center;
     font-family: 'Bai Jamjuree', "微軟正黑體", sans-serif;
     font-weight: bold;
-    font-size: 375px;
+    font-size: 32vmin;
     position:relative;
     color: black;
-
     animation-name: MoveDown; 
     animation-duration: 6s; /*持續時間*/
     animation-delay: 0s; /*開始時間*/
@@ -24,9 +23,8 @@
         left: 0%;
     }
 }
-
 .ufopic {
-    width: 7%;
+    width: 12%;
     position: relative;
     left:-50%;
     animation-name: UFO;
@@ -53,23 +51,15 @@
         opacity: 100%
     }
     100% {
-        left: 93.2%;
+        left: 87%;
         opacity:0%
     }
-}
-.select {
-    display: flex;
-    position: relative;
-    text-align: center;
-    font-family: 'Bai Jamjuree', "微軟正黑體", sans-serif;
-    
 }
 .movie {
     animation-name: Ocp;
     animation-duration: 4s;
     animation-delay: 0s;
     animation-iteration-count: initial;
-    margin-left: 33%;
     margin-top: 5%;
     color: gold;
     background-color: black;
@@ -82,9 +72,9 @@
     padding-right: 3%;
     padding-top: 1%;
     padding-bottom: 1%;
-    font-size: 28px;
+    font-size: 40px;
     font-weight: bold;
-    text-decoration: none;
+
 }
 .movie:hover{
     transform:scale(1.2);
@@ -94,7 +84,7 @@
     animation-duration: 4s;
     animation-delay: 0s;
     animation-iteration-count: initial;
-    margin-left: 10%;
+    margin-left:10%;
     margin-top: 5%;
     color: gold;
     background-color: black;
@@ -107,14 +97,13 @@
     padding-right: 3%;
     padding-top: 1%;
     padding-bottom: 1%;
-    font-size: 28px;
+    font-size: 40px;
     font-weight: bold;
-    text-decoration: none;
+    
 }
 .tub:hover {
     transform: scale(1.2);
 }
-
 @keyframes Ocp {
     from {
         opacity:0%;
@@ -127,16 +116,17 @@
 .return {
     font-family: 'Bai Jamjuree', "微軟正黑體", sans-serif;
     color: black;
-    font-size: 25px;
+    font-size: 32px;
     text-decoration: none;
     font-weight:bold;
     opacity:30%;
+    text-align: center;
+    margin-top:5%;
 }
 .return:hover{
     opacity:100%;
 }
-.below {
-    width:100%;
-    text-align: center;
-    margin-top:3.6%;
+.textdec {
+    color: gold;
+    text-decoration: none;
 }
